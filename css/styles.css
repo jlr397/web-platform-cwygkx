@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+main {
+  padding: 10px;
+}
+
+nav {
+  padding: 10px;
+  border-bottom: 1px solid #aaa;
+  background-color: #eee;
+}
+
+nav a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0 5px;
+}
+
+nav ul ul {
+  border: 1px solid #aaa;
+  background-color: #eee;
+}
+
+nav ul ul li {
+  padding: 10px 0;
+}
+
+/* DO NOT MODIFY OR ERASE the CSS code ABOVE this comment.
+ *
+ * - You should use the "position" CSS property to complete the assignment.
+ * - You should use the "display" CSS property to complete the assignment.
+ * - You should use the ":hover" psuedo selector to complete the assignment.
+ *
+ * Your CSS code should be added BELOW this comment. */
